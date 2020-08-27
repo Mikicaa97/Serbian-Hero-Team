@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Anketa | Serbian Hero Team</title>
+        <meta name="description" content="I am Mihailo Vlajkovic, web developer from Serbia and this is my portfolio. This is the showcase of my work, feel free to contact me for project opportunity">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Mihailo Vlajkovic,web portfolio, portfolio, web developer, developer">
+        <meta name="author" content="Mihailo Vlajkovic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+       <link rel="shortcut icon" type="image/png" href="img/faicon.png" />
+        <link rel="icon" href="img/strong.jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+        <!--SVE ZA HEDER-->
+        <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/strong.jpg" alt="Logo"/>
+            <!--<a class="navbar-brand" href="index.html"><b>Code</b><span><b>House</b></span></a>-->
+          </div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="active" href="anketa.html">Anketa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="novosti.html">Novosti</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rezultati.html" tabindex="-1" aria-disabled="true">Rezultati</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Kontakt</a>
+                  </li>
+              </ul>
+        </div>
+        <!--KRAJ HEDERA-->
+        <!--POCETAK ANKETE-->
+        <div class="sanketa">
+        <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+<!-- head - Googlefonts link -->
+
+<div id="outside">
+<form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">Anketa 21 dan FIT izazov</h1>
+  <p id="description"><b>Napomena:</b> Obrazac se popunjava najmanje 21 dan pre datuma</p>
+  
+  <fieldset>
+    <legend>Lični podaci</legend>
+    <div>
+      <label id="name-label" for="name">Ime:</label>
+      <input type="text" required id="name" name="user_name" placeholder="Ovde upsati ime..">   </div>
+    <div>
+      <label for="address-label">Adresa:</label>
+      <input type="Address" id="address" name="Address" placeholder="Ovde upisati adresu..">   </div>
+    <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Ovde upisati email..">   </div>
+    <div>
+      <label id="number-label" for="phone">Broj telefona:</label>
+      <input type="number" id="number" name="user_name" placeholder="Upisati max 10 cifra.." min="1" max="9">  </div>
+    <div>
+      <label id="iq-label" for="iq">IQ:</label>
+      <input type="number" id="iq" name="iq" placeholder="Ovde upisati..">   </div>
+
+    <div>
+      <label for="Gender">Pol</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Muški<br>
+        <input type="radio" name="gender" value="female"> Zenski<br>
+        <input type="radio" name="gender" value="other"> Ostalo
+      </p>
+    </div>
+    <label for="date-label">Današnji datum:</label>
+    <input type="date" name="bday">
+  
+  </fieldset>
+  <fieldset>
+    <label for="Gender">Oznaci sve sto odgovara</label>
+    <p>
+      <input type="checkbox" name="tattoo" value="tattoo"> Nisam nikad trenirao<br>
+      <input type="checkbox" name="age" value="Car"> Trenirao sam 3 meseca<br>
+      <input type="checkbox" name="car" value="car"> Volim sve sto vole mladi<br>
+      <input type="checkbox" name="work" value="work" checked> I work full-time<br>
+      <input type="checkbox" name="rich" value="rich" checked> Volim Herbalife<br>
+      <input type="checkbox" name="loc" value="loc" checked> Pijem suplemente<br>
+    </p>
+  </fieldset>
+  
+  <fieldset>
+    <div>
+      <label for="politics">Upisati nesto ovde:</label>
+      <select id="dropdown">
+  <option value="left">Nesto</option>
+  <option value="right">Nesto</option>
+  <option value="conservative">Nesto</option>
+  <option value="nazi">Nesto</option>
+  </select>
+
+      <label for="politics">Nesto upisati ovde:</label>
+      <select id="dropdown2">
+  <option value="University">1</option>
+  <option value="College">2</option>
+  <option value="Secondary">3</option>  
+  <option value="None">Nista</option>
+  </select>
+    </div>
+  </fieldset>
+  
+  <fieldset>
+    <legend>Upisati ono sto mislite</legend>
+    <div>
+      <label for="msg"></label>
+      <p> U 50 reci upisati zasto zelite da odradite 21 dan FIT Izazov</p>
+      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Ovde upistai.."></textarea>   </div>
+    <div>
+      <label for="msg">Molimo posaljite podatke za kontakt za dve reference</label><br>
+      <textarea id="msg2" name="user_message" rows="4" cols="50" placeholder="Ovde upisati.."></textarea>   </div>
+  </fieldset>
+
+  <div id="submitbutton">
+    <button type="submit" id="submit">Posalji svoju anketu</button>   </div>
+
+</form>
+  </div>
+
+<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation -->
+</div>
+        <!--KRAJ ANKETE-->
+        <!--NOVI INFO-->
+    <div class="infosve">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Da li zeliš da započneš projekat kod nas?</h5>
+          <!--<p class="card-text">Javi nam se putem mejla</p>-->
+          <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" class="btn btn-primary">vlajkovic.1997@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <!--KRAJ NOVOG INFA-->
+    <!--NOVI FUTER-->
+    <div class="svefuter">
+      <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase">Serbian Hero Team</h5>
+            <p>Pozovi nas ako zeliš uspešan biznis.</p>
+        </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Kontakt</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="kontakt.html">> 065/5822-552</a>
+            </li>
+            <!--<li>
+              <a href="#!">Mijatovih njiva 20</a>
+            </li>
+            <li>
+              <a href="#!"></a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>-->
+          </ul>
+
+        </div>
+    <div class="col-md-3 mb-md-0 mb-3">
+      <h5 class="text-uppercase">Email</h5>
+
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new">> NEKI MEJL</a>
+        </li>
+        <!--<li>
+          <a href="#!">Link 2</a>
+        </li>
+        <li>
+          <a href="#!">Link 3</a>
+        </li>
+        <li>
+          <a href="#!">Link 4</a>
+        </li>-->
+      </ul>
+
+          </div>
+        </div>
+    </div>
+    <div class="ufuter">
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mikicaa97.github.io/CodeMikica/"> CodeHause</a>
+      </div>
+    </div>
+      </footer>
+    </div>
+      <!-- KRAJ NOVOG Footer -->
+    </body>
+</html>
