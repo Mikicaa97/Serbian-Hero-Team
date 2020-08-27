@@ -383,10 +383,6 @@ section li img:hover {
       justify-content: space-around;
 }
 
-.rezultati .rezlevo {
-  margin-top: 3%;
-}
-
 .rezultati .rezlevo img {
   width: 500px;
   height: 300px;
@@ -593,6 +589,20 @@ button:hover {
   width: 40%;
   margin: 0px auto;
   margin-top: 3%;
+}
+
+.bomeni {
+  text-align: center;
+}
+
+.bomeni .omenitext {
+  font-size: 23px;
+  padding: 3%;
+}
+
+.bomeni .omenitext p {
+  color: #000;
+  text-align: justify;
 }
 
 @media (max-width: 1300px) {

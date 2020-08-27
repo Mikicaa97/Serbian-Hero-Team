@@ -312,13 +312,9 @@ section{
 }
 
 .rezultati{
-    //width: 100%;
-    //margin: 0px auto;
     display: flex;
     justify-content: space-around;
     .rezlevo{
-        //margin-left: -20%;
-        margin-top: 3%;
         img{
             width: 500px;
             height: 300px;
@@ -525,6 +521,21 @@ body {
     margin-top: 3%;
 }
 //KRAJ SEARCH
+
+//O MENI LIKOVI
+.bomeni{
+    text-align: center;
+    .omenitext{
+        font-size: 23px;
+        padding: 3%;
+        p{
+            color: #000;
+            text-align: justify;
+        }
+    }
+}
+//KRAJ O MENI LIKOVA
+
 //RESPONSIVE
 @media (max-width:1300px){
     .bgslika{
