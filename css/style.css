@@ -224,7 +224,7 @@ section li img:hover {
 }
 
 .bgslika {
-  background-image: url("../img/gym2.jpg");
+  background-image: url("../img/gym5.jpg");
   background-repeat: no-repeat;
   min-height: 500px;
   background-size: cover;
@@ -325,6 +325,7 @@ section li img:hover {
 }
 
 .paginacija {
+  padding: 2%;
   font-size: 18px;
 }
 
@@ -364,7 +365,7 @@ section li img:hover {
 
 .reznaslov h3 {
   font-size: 35px;
-  color: #c2c2c2;
+  color: #000;
 }
 
 .searchnas {
@@ -394,24 +395,23 @@ section li img:hover {
 }
 
 .omeni {
-  background-image: url("../img/gym1.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  min-height: 600px;
-  background-size: cover;
+  /*background-image:url("../img/gym1.jpg");
+    background-attachment: fixed;
+	background-repeat:no-repeat;
+	min-height:600px;
+    background-size:cover;*/
   text-align: center;
-  padding: 3%;
   margin-top: 4%;
 }
 
 .omeni .omenitext {
-  font-size: 25px;
+  font-size: 20px;
   padding: 3%;
   margin-top: 3%;
 }
 
 .omeni .omenitext p {
-  color: #c2c2c2;
+  color: #000;
   text-align: justify;
 }
 
@@ -489,10 +489,8 @@ h1 {
 }
 
 form {
-  /* Just to center the form on the page */
   margin: 0 auto;
   width: 70%;
-  /* To see the limits of the form */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
@@ -515,47 +513,23 @@ legend {
   width: 150px;
 }
 
-/*div + div {
-    margin-top: 1em;
-    }*/
-/* label {
-    /* To make sure that all label have the same size and are properly align */
-/* display: inline-block; */
-/* width: 80px; */
-/* text-align: right; */
 input, textarea {
-  /* To make sure that all text field have the same font settings
-       By default, textarea are set with a monospace font */
-  /* font: 1em sans-serif; */
-  /* To give the same size to all text field */
   width: 200px;
-  /*   -moz-box-sizing: border-box;
-         box-sizing: border-box; */
-  /* To harmonize the look & feel of text field border */
   border: 1px solid #999;
 }
 
 input:focus, textarea:focus {
-  /* To give a little highligh on active elements */
   border-color: OrangeRed;
 }
 
 textarea {
-  /* To properly align multiline text field with their label */
   vertical-align: top;
-  /* To give enough room to type some text */
   height: 5em;
-  /* To allow users to resize any textarea vertically
-       It works only on Chrome, Firefox and Safari */
   resize: vertical;
 }
 
-.button {
-  /* To position the buttons to the same position of the text fields */
-  padding-left: 90px;
-  /* same size as the label elements */
-}
-
+/*.button {
+  }*/
 button {
   margin: .5em;
   font-size: 1em;
@@ -591,6 +565,26 @@ button:hover {
   margin-top: 3%;
 }
 
+/*.bgrezultati2{
+    background-image:url("../img/gym2.jpg");
+	background-repeat:no-repeat;
+	min-height:500px;
+    background-size:cover;
+    .ptext{
+        width: 60%;
+        margin: 0px auto;
+        text-align: center;
+        padding-top: 8%;
+        h1{
+            color: #fff;
+            font-size: 90px;
+        }
+        p{
+            color: #fff;
+            font-size: 35px;
+        }
+    }
+}*/
 .bomeni {
   text-align: center;
 }
@@ -708,6 +702,11 @@ button:hover {
     width: 80%;
     margin: 0px auto;
   }
+  .search {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 3%;
+  }
   .sanketa form {
     width: 90%;
   }
@@ -724,6 +723,9 @@ button:hover {
   }
   .rezultati .rezdesno {
     margin-top: 7%;
+  }
+  .omenitext {
+    margin: 4%;
   }
 }
 
