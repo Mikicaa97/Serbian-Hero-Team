@@ -403,6 +403,10 @@ section li img:hover {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 3%;
+  /*.textdesno{
+            //text-align: justify;
+            //margin-top: 3%;
+        }*/
 }
 
 .kartica3 .prvakartica .levaimg {
@@ -956,10 +960,17 @@ button:hover {
   background-color: #fff;
 }
 
-.prijavise {
-  width: 50%;
-  margin: 0px auto;
-  padding: 1%;
+.prijava1 {
+  margin-top: 5%;
+}
+
+.prijava1 button {
+  background-color: #35a03a;
+  border: none;
+}
+
+.prijava1 button:hover {
+  background-color: #000;
 }
 
 .onamasve {
@@ -1022,9 +1033,8 @@ button:hover {
     display: block;
     text-align: center;
   }
-  .prijavise {
-    margin-top: 30%;
-    width: 80%;
+  .prijava1 {
+    margin-top: 12%;
   }
   .searchnas {
     width: 50%;
@@ -1089,9 +1099,8 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-  .prijavise {
-    margin-top: 30%;
-    width: 150%;
+  .prijava1 {
+    margin-top: 20%;
   }
   .searchnas {
     width: 80%;

@@ -353,10 +353,10 @@ section{
                 width: 300px;
             }
         }
-        .textdesno{
+        /*.textdesno{
             //text-align: justify;
             //margin-top: 3%;
-        }
+        }*/
     }
 }
 
@@ -866,11 +866,15 @@ body {
 }
 //BLOG STR KRAJ
 //PRIJAVA STRANA
-.prijavise{
-    //background-color: #fafafa;
-    width: 50%;
-    margin: 0px auto;
-    padding: 1%;
+.prijava1{
+    margin-top: 5%;
+    button{
+        background-color: #35a03a;
+        border: none;
+    }
+    button:hover{
+        background-color: #000;
+    }
 }
 //KRAJ PRIJAVA STR
 //O NAMA SVE
@@ -936,10 +940,8 @@ body {
             text-align: center;
         }
     }
-    .prijavise{
-        margin-top: 30%;
-        width: 80%;
-        //margin: 0px auto;
+    .prijava1{
+        margin-top: 12%;
     }
     .searchnas{
         width: 50%;
@@ -1013,10 +1015,8 @@ body {
     }
 }
 @media (max-width:480px){
-    .prijavise{
-        margin-top: 30%;
-        width: 150%;
-        //margin: 0px auto;
+    .prijava1{
+        margin-top: 20%;   
     }
     .searchnas{
         width: 80%;
