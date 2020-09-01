@@ -12,7 +12,6 @@
 .header {
   margin: 0px auto;
   margin-top: 2%;
-  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +21,7 @@
 
 .header .logo {
   margin-top: -30px;
-  padding: 1%;
+  padding: 2%;
 }
 
 .header ul {
@@ -59,9 +58,13 @@ span {
 }
 
 .slajder {
-  width: 80%;
+  width: 90%;
   margin: 0px auto;
   margin-top: 3%;
+}
+
+.slajder img {
+  height: 500px;
 }
 
 .slajder h5 {
@@ -224,7 +227,7 @@ section li img:hover {
 }
 
 .bgslika {
-  background-image: url("../img/gym5.jpg");
+  background-image: url("../img/gym1.jpg");
   background-repeat: no-repeat;
   min-height: 500px;
   background-size: cover;
@@ -259,6 +262,156 @@ section li img:hover {
 .bgimg .stext h2 {
   color: #000;
   font-size: 40px;
+}
+
+.bgslikanovosti {
+  background-image: url("../img/novosti2.jpg");
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.bgslikanovosti .ptext {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.bgslikanovosti .ptext h1 {
+  color: #fff;
+  font-size: 90px;
+}
+
+.bgslikanovosti .ptext p {
+  color: #fff;
+  font-size: 35px;
+}
+
+.bgimg {
+  padding: 2%;
+}
+
+.bgimg .stext {
+  text-align: center;
+  padding: 3%;
+}
+
+.bgimg .stext h2 {
+  color: #000;
+  font-size: 40px;
+}
+
+.trending .trendnaslov {
+  margin: 5% 5% 5% 5%;
+  border-bottom: 3px solid #35a03a;
+}
+
+.trending .trendnaslov h1 {
+  font-size: 35px;
+  color: #000;
+}
+
+.novostiblok {
+  width: 100%;
+}
+
+.novostiblok div {
+  margin: 20px;
+}
+
+.trending3deo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.trending3deo .trendnaslov1 {
+  width: 80%;
+  margin: 0px auto;
+  margin: 5% 5% 5% 5%;
+  border-bottom: 3px solid #35a03a;
+}
+
+.trending3deo .trendnaslov1 h1 {
+  font-size: 35px;
+  color: #000;
+}
+
+.trending3deo .trendnaslov2 {
+  width: 35%;
+  margin: 5% 5% 5% 5%;
+  border-bottom: 3px solid #35a03a;
+}
+
+.trending3deo .trendnaslov2 h1 {
+  font-size: 35px;
+  color: #000;
+}
+
+.novostislike img {
+  height: 100%;
+}
+
+.novostislike div {
+  margin: 20px;
+}
+
+.novostivideo {
+  background-color: #000;
+  padding: 1%;
+}
+
+.novostivideo iframe {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.novostivideo div {
+  background-color: #000;
+}
+
+.novostivideo h5 {
+  color: #c2c2c2;
+}
+
+.novostivideo p {
+  color: #c2c2c2;
+}
+
+.novostivideo .trendnaslovvideo {
+  margin: 5% 5% 5% 5%;
+  border-bottom: 3px solid #35a03a;
+}
+
+.novostivideo .trendnaslovvideo h1 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.kartica3 {
+  width: 60%;
+}
+
+.kartica3 .prvakartica {
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3%;
+}
+
+.kartica3 .prvakartica .levaimg {
+  margin-right: 40px;
+  margin-left: 7%;
+}
+
+.kartica3 .prvakartica .levaimg img {
+  width: 300px;
 }
 
 .container {
@@ -296,6 +449,140 @@ section li img:hover {
 
 .container .poseban a:hover {
   background-color: #000;
+}
+
+.container {
+  /*a{
+        color: #fff;
+        //background-color: #35a03a;
+        border: #fff;
+    }
+    a:hover{
+        color: #35a03a;
+    }*/
+}
+
+.container .petarimg {
+  text-align: center;
+}
+
+.container .petarimg img {
+  -webkit-box-shadow: 0px 5px 16px 15px #c0c0c0;
+          box-shadow: 0px 5px 16px 15px #c0c0c0;
+  width: 500px;
+  height: 400px;
+}
+
+.container .petarimg img:hover {
+  border: 5px solid #bdbdbd;
+}
+
+.container i {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.container i {
+  color: #000;
+}
+
+.container i:hover {
+  color: #35a03a;
+}
+
+.container .poseban {
+  padding-top: 2%;
+}
+
+.container .poseban a {
+  background-color: #35a03a;
+  border: #c2c2c2;
+}
+
+.container .poseban a:hover {
+  background-color: #000;
+}
+
+.bgrezultatijelena {
+  background-image: url("../img/jelena.jpg");
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  padding-top: 25%;
+}
+
+.bgrezultatijelena .ptext {
+  background-color: rgba(68, 68, 68, 0.418);
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 8%;
+  padding: 2%;
+}
+
+.bgrezultatijelena .ptext h1 {
+  color: #dddddd;
+  font-size: 90px;
+}
+
+.bgrezultatijelena .ptext p {
+  color: #dddddd;
+  font-size: 35px;
+}
+
+.bgrezultatistevan {
+  background-image: url("../img/stevan.jpg");
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  padding-top: 25%;
+}
+
+.bgrezultatistevan .ptext {
+  background-color: rgba(68, 68, 68, 0.418);
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 8%;
+  padding: 2%;
+}
+
+.bgrezultatistevan .ptext h1 {
+  color: #dddddd;
+  font-size: 90px;
+}
+
+.bgrezultatistevan .ptext p {
+  color: #dddddd;
+  font-size: 35px;
+}
+
+.bgrezultatimihailo {
+  background-image: url("../img/mihailo.jpg");
+  background-repeat: no-repeat;
+  min-height: 700px;
+  min-width: 1200px;
+  background-size: cover;
+  padding-top: 25%;
+}
+
+.bgrezultatimihailo .ptext {
+  background-color: rgba(68, 68, 68, 0.418);
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 8%;
+  padding: 2%;
+}
+
+.bgrezultatimihailo .ptext h1 {
+  color: #dddddd;
+  font-size: 90px;
+}
+
+.bgrezultatimihailo .ptext p {
+  color: #dddddd;
+  font-size: 35px;
 }
 
 .anketalink {
@@ -357,6 +644,81 @@ section li img:hover {
   font-size: 35px;
 }
 
+.bgrezultatipetar {
+  background-image: url("../img/petar3.jpg");
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  padding-top: 25%;
+}
+
+.bgrezultatipetar .ptext {
+  background-color: rgba(68, 68, 68, 0.418);
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 8%;
+  padding: 2%;
+}
+
+.bgrezultatipetar .ptext h1 {
+  color: #dddddd;
+  font-size: 90px;
+}
+
+.bgrezultatipetar .ptext p {
+  color: #dddddd;
+  font-size: 35px;
+}
+
+/*.bgrezultatimirko{
+    background-image:url("../img/mirko.jpg");
+	background-repeat:no-repeat;
+	min-height:500px;
+    background-size:cover;
+    .ptext{
+        background-color: rgba(68, 68, 68, 0.418);
+        width: 60%;
+        margin: 0px auto;
+        text-align: center;
+        padding-top: 8%;
+        h1{
+            color: #fff;
+            font-size: 90px;
+        }
+        p{
+            color: #fff;
+            font-size: 35px;
+        }
+    }
+}*/
+.bgrezultatimirko {
+  background-image: url("../img/mirko.jpg");
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  padding-top: 25%;
+}
+
+.bgrezultatimirko .ptext {
+  background-color: rgba(68, 68, 68, 0.418);
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 8%;
+  padding: 2%;
+}
+
+.bgrezultatimirko .ptext h1 {
+  color: #dddddd;
+  font-size: 90px;
+}
+
+.bgrezultatimirko .ptext p {
+  color: #dddddd;
+  font-size: 35px;
+}
+
 .reznaslov {
   text-align: center;
   margin: 5% 5% 5% 5%;
@@ -365,7 +727,7 @@ section li img:hover {
 
 .reznaslov h3 {
   font-size: 35px;
-  color: #000;
+  color: #fff;
 }
 
 .searchnas {
@@ -395,12 +757,13 @@ section li img:hover {
 }
 
 .omeni {
-  /*background-image:url("../img/gym1.jpg");
-    background-attachment: fixed;
-	background-repeat:no-repeat;
-	min-height:600px;
-    background-size:cover;*/
+  background-image: url("../img/gym1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-size: cover;
   text-align: center;
+  padding: 3%;
   margin-top: 4%;
 }
 
@@ -411,7 +774,7 @@ section li img:hover {
 }
 
 .omeni .omenitext p {
-  color: #000;
+  color: #fff;
   text-align: justify;
 }
 
@@ -565,38 +928,58 @@ button:hover {
   margin-top: 3%;
 }
 
-/*.bgrezultati2{
-    background-image:url("../img/gym2.jpg");
-	background-repeat:no-repeat;
-	min-height:500px;
-    background-size:cover;
-    .ptext{
-        width: 60%;
-        margin: 0px auto;
-        text-align: center;
-        padding-top: 8%;
-        h1{
-            color: #fff;
-            font-size: 90px;
-        }
-        p{
-            color: #fff;
-            font-size: 35px;
-        }
-    }
-}*/
 .bomeni {
   text-align: center;
 }
 
 .bomeni .omenitext {
-  font-size: 23px;
+  font-size: 20px;
   padding: 3%;
 }
 
 .bomeni .omenitext p {
   color: #000;
   text-align: justify;
+}
+
+.blogstr {
+  padding: 9%;
+  margin: 6%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 15px 10px #bdbdbd;
+          box-shadow: 0px 5px 15px 10px #bdbdbd;
+  background-color: #fff;
+  margin-top: -8%;
+}
+
+.blogstr .ublogu {
+  background-color: #fff;
+}
+
+.prijavise {
+  width: 50%;
+  margin: 0px auto;
+  padding: 1%;
+}
+
+.onamasve {
+  width: 85%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: justify;
+}
+
+.onamasve h5 {
+  font-size: 30px;
+}
+
+.onamasve .onamasve1 {
+  margin-left: 25%;
+  width: 100%;
 }
 
 @media (max-width: 1300px) {
@@ -635,6 +1018,14 @@ button:hover {
 }
 
 @media (max-width: 900px) {
+  .kartica3 .prvakartica {
+    display: block;
+    text-align: center;
+  }
+  .prijavise {
+    margin-top: 30%;
+    width: 80%;
+  }
   .searchnas {
     width: 50%;
     margin: 0px auto;
@@ -698,6 +1089,10 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+  .prijavise {
+    margin-top: 30%;
+    width: 150%;
+  }
   .searchnas {
     width: 80%;
     margin: 0px auto;

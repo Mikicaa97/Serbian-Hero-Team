@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> Anketa | Serbian Hero Team</title>
+        <title> Blog | Serbian Hero Team</title>
         <meta name="description" content="I am Mihailo Vlajkovic, web developer from Serbia and this is my portfolio. This is the showcase of my work, feel free to contact me for project opportunity">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="Mihailo Vlajkovic,web portfolio, portfolio, web developer, developer">
@@ -36,10 +36,10 @@
                   <a class="nav-link" href="index.html">Početna</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" id="active" href="anketa.html">Anketa</a>
+                  <a class="nav-link" href="anketa.html">Anketa</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
+                  <a class="nav-link active" id="active" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="novosti.html">Novosti</a>
@@ -55,99 +55,129 @@
                 </li>
               </ul>
         </div>
-        <!--KRAJ HEDERA-->
-        <!--POCETAK ANKETE-->
-        <div class="sanketa">
-        <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
-<!-- head - Googlefonts link -->
+        <!--KRAJ HEDERA-->\
+        <div class="bgrezultati">
+          <div class="ptext">
+              <h1>BLOG</h1>
+              <p>Kada budete zadovoljni sobom , pomoćićete i drugima da to budu</p>
+          </div>
+      </div>
+      <div class="blogstr">
+        <div class="ublogu">
+        <div class="card-columns">
+          <div class="card">
+            <!--<img class="card-img-top" src="img/voce1.jpg" alt="Card image cap">-->
+            <div class="card-body">
+              <h5 class="card-title">Proteini..</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante</p>
+            </div>
+          </div>
+          <div class="card p-3">
+            <img class="card-img-top" src="img/voce1.jpg" alt="Card image cap">
+            <blockquote class="blockquote mb-0 card-body">
+              <h5 class="card-title">Izbalansirana ishrana..</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card p-3">
+            <img class="card-img-top" src="img/voce3.jpg" alt="Card image cap">
+            <blockquote class="blockquote mb-0 card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/strong.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Vitamini..</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
 
-<div id="outside">
-<form id="survey-form" action="/my-handling-form-page" method="post">
-  <h1 id="title">Anketa 21 dan FIT izazov</h1>
-  <p id="description"><b>Napomena:</b> Obrazac se popunjava najmanje 21 dan pre datuma</p>
-  
-  <fieldset>
-    <legend>Lični podaci</legend>
-    <div>
-      <label id="name-label" for="name">Ime:</label>
-      <input type="text" required id="name" name="user_name" placeholder="Ovde upsati ime..">   </div>
-    <div>
-      <label for="address-label">Adresa:</label>
-      <input type="Address" id="address" name="Address" placeholder="Ovde upisati adresu..">   </div>
-    <div>
-      <label id="email-label" for="Email">Email:</label>
-      <input type="email" required id="email" name="user_email" placeholder="Ovde upisati email..">   </div>
-    <div>
-      <label id="number-label" for="phone">Broj telefona:</label>
-      <input type="number" id="number" name="user_name" placeholder="Upisati max 10 cifra.." min="1" max="9">  </div>
-    <div>
-      <label id="iq-label" for="iq">IQ:</label>
-      <input type="number" id="iq" name="iq" placeholder="Ovde upisati..">   </div>
+          <div class="card p-3">
+            <img class="card-img-top" src="img/voce2.jpg" alt="Card image cap">
+            <blockquote class="blockquote mb-0 card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
 
-    <div>
-      <label for="Gender">Pol</label>
-      <p>
-        <input type="radio" name="gender" value="male" checked> Muški<br>
-        <input type="radio" name="gender" value="female"> Zenski<br>
-        <input type="radio" name="gender" value="other"> Ostalo
-      </p>
-    </div>
-    <label for="date-label">Današnji datum:</label>
-    <input type="date" name="bday">
-  
-  </fieldset>
-  <fieldset>
-    <label for="Gender">Oznaci sve sto odgovara</label>
-    <p>
-      <input type="checkbox" name="trening" value="tattoo"> Nisam nikad trenirao<br>
-      <input type="checkbox" name="mesec" value="Car"> Trenirao sam 3 meseca<br>
-      <input type="checkbox" name="car" value="car"> Volim sve sto vole mladi<br>
-      <input type="checkbox" name="work" value="work"> I work full-time<br>
-      <input type="checkbox" name="rich" value="rich"> Volim Herbalife<br>
-      <input type="checkbox" name="loc" value="loc"> Pijem suplemente<br>
-    </p>
-  </fieldset>
-  
-  <fieldset>
-    <div>
-      <label for="politics">Upisati nesto ovde:</label>
-      <select id="dropdown">
-  <option value="left">Nesto</option>
-  <option value="right">Nesto</option>
-  <option value="conservative">Nesto</option>
-  <option value="nazi">Nesto</option>
-  </select>
-
-      <label for="politics">Nesto upisati ovde:</label>
-      <select id="dropdown2">
-  <option value="University">1</option>
-  <option value="College">2</option>
-  <option value="Secondary">3</option>  
-  <option value="None">Nista</option>
-  </select>
-    </div>
-  </fieldset>
-  
-  <fieldset>
-    <legend>Upisati ono sto mislite</legend>
-    <div>
-      <label for="msg"></label>
-      <p> U 50 reci upisati zasto zelite da odradite 21 dan FIT Izazov</p>
-      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Ovde upistai.."></textarea>   </div>
-    <div>
-      <label for="msg">Molimo posaljite podatke za kontakt za dve reference</label><br>
-      <textarea id="msg2" name="user_message" rows="4" cols="50" placeholder="Ovde upisati.."></textarea>   </div>
-  </fieldset>
-
-  <div id="submitbutton">
-    <button type="submit" id="submit">Posalji svoju anketu</button>   </div>
-
-</form>
-  </div>
-
-<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation -->
-</div>
-        <!--KRAJ ANKETE-->
+          <div class="card bg-primary text-white text-center p-3">
+            <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+              <footer class="blockquote-footer">
+                <small>
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Minerali..</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <!--<div class="card">
+            <img class="card-img" src="img/user.png" alt="Card image">
+          </div>-->
+          <div class="card p-3 text-right">
+            <img class="card-img-top" src="img/gym4.jpg" alt="Card image cap">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <img class="card-img" src="img/user.png" alt="Card image">
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Fizicka aktivnost..</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--PAGINACIJA-->
+      <div class="paginacija">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1">Nazad</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="blog.html"><b>1</b></a></li>
+            <li class="page-item"><a class="page-link" href="#!">2</a></li>
+            <li class="page-item"><a class="page-link" href="#!">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#!">Sledeća</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--KRAJ PAGINACIJE-->
+      <div class="cleaner"></div>
         <!--NOVI INFO-->
     <div class="infosverez">
       <div class="card text-center">

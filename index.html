@@ -29,7 +29,6 @@
         <div class="header">
         <div class="logo">
             <a href="index.html"><img src="img/strong.jpg" alt="Logo"/>
-            <!--<a class="navbar-brand" href="index.html"><b>Code</b><span><b>House</b></span></a>-->
           </div>
             <ul class="nav nav-tabs">
                 <li class="nav-item">
@@ -39,16 +38,23 @@
                   <a class="nav-link" href="anketa.html">Anketa</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="novosti.html">Novosti</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="rezultati.html" tabindex="-1" aria-disabled="true">Rezultati</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Kontakt</a>
+                    <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Naš Tim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="active" href="prijava.html">Prijavi se</a>
                   </li>
               </ul>
         </div>
+        <div class="cleaner"></div>
         <!--KRAJ HEDERA-->
         <!--Video SLIDER-->
         <section>
@@ -88,11 +94,16 @@
           </div>
           </div>
           <div class="druga">
-            <img src="img/bgslika1.jpg" alt="Herbalife"/>
+            <img src="img/fitizazov.jpg" alt="Herbalife"/>
           </div>
         </div>
         <!--KRAJ ANKETE-->
         <!--GALERIJA SLIKA POCETAK-->
+        <!--GALERIJA NASLOV POCETAK-->
+        <div class="searchnas">
+          <h1>Galerija</h1>
+        </div>
+        <!--KRAJ NASLOV GALERIJA-->
         <div class="slajder">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https:/cdnjs.cloudflare.com/ajax/l/ibs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -109,7 +120,7 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/voce1.jpg" class="d-block w-100" alt="...">
+                <img src="img/voce1.jpg" class="d-block w-100" alt="Voce">
                 <div class="carousel-caption d-none d-md-block">
                     <!--<h5>Beauty and Smile</h5>
                     <p>Stomatoloska ordinacija Beauty and Smile</p>-->
@@ -164,6 +175,52 @@
           </div>
     </div>
     <!--KRAJ GALERIJA SLIKA-->
+    <!--DEO ZA BLOG, NOVOSTI I NAS TIM-->
+    <!--POCETAK NOVOSTI BLOK-->
+    <div class="novostiblok">
+      <div class="trending">
+        <div class="trendnaslov">
+          <h1>Novosti, Blog, Naš Tim</h1>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/novosti.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Novosti</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+            <div class="krataklink">
+              <a href="novosti.html" class="btn btn-primary">Pogledaj Više</a>
+          </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/novosti2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blog</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+            <div class="krataklink">
+              <a href="blog.html" class="btn btn-primary">Pogledaj Više</a>
+          </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/gym5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Naš Tim</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+            <div class="krataklink">
+              <a href="kontakt.html" class="btn btn-primary">Pogledaj Više</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--KRAJ NOVOSTI BLOK-->
+    <!--KRAJ DELA ZA SVE TO-->
     <!--POCETAK KARTICE 2-->
     <div class="naslov">
       <h1>Serbian <span>Hero</span> Team je karika Vašeg uspeha</h1>
@@ -172,7 +229,7 @@
   <div class="kartica2">
     <div class="card-deck">
       <div class="card">
-        <a href="#"><img class="card-img-top" src="img/user.png" alt="Card image cap"></a>
+        <a href="#"><img class="card-img-top" src="img/user.png" alt="..."></a>
         <div class="card-body">
           <h5 class="card-title">John Do</h5>
           <p class="card-text">Uskoro text...</p>
@@ -244,18 +301,18 @@
   </div>
 </div>
     <!--NOVI INFO-->
-    <div class="infosve">
+    <div class="infosverez">
       <div class="card text-center">
         <div class="card-body">
-          <h5 class="card-title">Da li zeliš da započneš projekat kod nas?</h5>
-          <!--<p class="card-text">Javi nam se putem mejla</p>-->
+          <h5 class="card-title">Ako zeliš da zapocneš projekat kod mene?</h5>
+          <!--<p></p>-->
           <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" class="btn btn-primary">serbian.hero@gmail.com</a>
         </div>
       </div>
     </div>
     <!--KRAJ NOVOG INFA-->
     <!--NOVI FUTER-->
-    <div class="svefuter">
+    <div class="svefuterrez">
       <footer class="page-footer font-small blue pt-4">
 
       <!-- Footer Links -->
@@ -269,8 +326,9 @@
 
       <!-- Content -->
             <h5 class="text-uppercase">Serbian Hero Team</h5>
-            <p>Pozovi nas ako zeliš uspešan biznis.</p>
-
+            <p><b>Treniraj i zaradi</b></p>
+            <p><b>Sonzor Organizacije:</b> Herbalife</p>
+            <a href="kontakt.html"><p><b>Upoznaj uspesan <span>TIM</span> Ljudi</b></p></a>
         </div>
         <!-- Grid column -->
 
@@ -284,17 +342,14 @@
 
           <ul class="list-unstyled">
             <li>
-              <a href="kontakt.html">> 065/5822-552</a>
-            </li>
-            <!--<li>
-              <a href="#!">Mijatovih njiva 20</a>
+              <a href="kontakt.html">> 069/55-58-126</a>
             </li>
             <li>
-              <a href="#!"></a>
+              <a href="#!">Beograd, Srbija</a>
             </li>
             <li>
-              <a href="#!">Link 4</a>
-            </li>-->
+              <a href="#!">Organizacija</a>
+            </li>
           </ul>
 
         </div>
@@ -304,19 +359,19 @@
     <div class="col-md-3 mb-md-0 mb-3">
 
       <!-- Links -->
-      <h5 class="text-uppercase">Email</h5>
+      <h5 class="text-uppercase">Social</h5>
 
       <ul class="list-unstyled">
         <li>
-          <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new">> NEKI MEJL</a>
+          <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p_nik22/?hl=sr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </li>
         <!--<li>
-          <a href="#!">Link 2</a>
-        </li>
-        <li>
-          <a href="#!">Link 3</a>
-        </li>
-        <li>
           <a href="#!">Link 4</a>
         </li>-->
       </ul>
