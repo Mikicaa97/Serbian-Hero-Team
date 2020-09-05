@@ -21,40 +21,34 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        
     </head>
     <body>
-        <!--<div class="prijavise">
-          <div class="uprijavi">
-        <form class="form-signin">
-            <img class="mb-4" src="img/strong.jpg" alt="" width="210" height="100">
-            <!--<a href="index.html"><img src="img/strong.jpg" alt="Logo"/>--> <!--https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg
-            <h1 class="h3 mb-3 font-weight-normal">Prijavi se FIT izazovu</h1>
-            <label for="inputEmail" class="sr-only">Ime i Prezime</label>
-            <input type="text" required id="name" name="user_name" class="form-control" placeholder="Ime i prezime" required="" autofocus="">
-            <label for="inputEmail" class="sr-only">Broj telefona</label>
-            <input type="number"  name="user_name" class="form-control" placeholder="Broj telefona" required="" autofocus="">
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email adresa" required="" autofocus="">
-            <h1 class="h3 mb-3 font-weight-normal">Izaberi svog Membera</h1>
-            <div class="checkbox mb-3">
-              <label>
-                <input type="checkbox" value="ime"> Mihailo Vlajkovic
-                <input type="checkbox" value="ime"> Petar Nikolic
-                <input type="checkbox" value="ime"> Vukasin Stojsin
-                <input type="checkbox" value="ime"> Strahinja Stojsin
-                <input type="checkbox" value="ime"> Mirko Mijovic
-                <input type="checkbox" value="ime"> Milutin Paunovic
-                <input type="checkbox" value="ime"> Stevan Nikolic
-                <input type="checkbox" value="ime"> Jelena Dragic
-              </label>
-            </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-            <p class="mt-5 mb-3 text-muted">© Serbian Hero Team 2020-2021</p>
-          </form>
-        </div>
-        </div>-->
+      <div class="naslov">
+        <h2><p>Trenutno nije u funkciji. Prijave mozete izvrsiti za sada samo na strani <a href="kontakt.html"><span>Naš Tim</span></a>!</p></h2>
+    </div>
+    <!--POPUP POCETAK-->
+    <!--<div id="popprijava">
+      <button id="close-button" 
+      onclick="document.getElementById('popprijava').style.display='none'">&times;</button>
+      <a href="kontakt.html">Pronadji Mentora</a>
+      <div class="kako">
+        <p>Kako se prijaviti za FIT izazov?</p>
+      </div>
+      <div class="popimg">
+        <!--<img src="img/user.png"/>
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+      </div>
+      <div class="link1">
+        <h2>Pre prijave šta treba da uradim:</h2>
+        <p>Pre prijave <b>obavezno</b> upisati ime i prezime Vašeg Mentora!<br/>
+          U poljima uneti Vaše ime, prezime, Email adresu, broj telefona i ime i prezime Vašeg Mentora.<br/>
+          <span>Pobednik osvaja 500e</span>, Srecno!
+          </p>
+      </div>
+  </div>-->
+  <!--POPUP KRAJ-->
         <div class="prijava1">
         <form class="form-signin">
           <!--<img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">-->
-          <img class="mb-4" src="img/strong.jpg" alt="" width="210" height="100">
+          <a href="index.html"><img class="mb-4" src="img/strong.jpg" alt="" width="210" height="100"></a>
           <h1 class="h3 mb-3 font-weight-normal">Prijava Za FIT izazov 21 dan</h1>
           <label for="name-label" class="sr-only">Ime i prezime</label>
           <input type="text" id="name" class="form-control" placeholder="Ime i prezime" required="" autofocus="">
@@ -62,8 +56,8 @@
           <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
           <label for="number-label" class="sr-only">Broj telefona</label>
           <input type="phone" id="phone" class="form-control" placeholder="Broj telefona" required="" autofocus="">
-          <label for="name-label" class="sr-only">Ime i prezime membera</label>
-          <input type="text" id="name" class="form-control" placeholder="Ime i prezime Membera" required="" autofocus="">
+          <label for="name-label" class="sr-only">Ime i prezime Mentora</label>
+          <input type="text" id="name" class="form-control" placeholder="Ime i prezime Mentora" required="" autofocus="">
           <div class="checkbox mb-3">
             <!--<label>
               <input type="checkbox" value="remember-me"> Remember me

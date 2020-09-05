@@ -21,42 +21,47 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
         <!--SVE ZA HEDER-->
         <div class="header">
-        <div class="logo">
-            <a href="index.html"><img src="img/strong.jpg" alt="Logo"/>
-            <!--<a class="navbar-brand" href="index.html"><b>Code</b><span><b>House</b></span></a>-->
+          <div class="logo">
+              <a href="index.html"><img src="img/strong.jpg" alt="Logo"/>
+            </div>
+              <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Početna</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="500e.html" role="button" aria-haspopup="true" aria-expanded="false">Osvoji 500e</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="nagrade.html">Nagradna igra</a>
+                      <a class="dropdown-item" href="rezultati.html">Rezultati</a>
+                      <a class="dropdown-item" id="active" href="novosti.html">Novosti</a>
+                      <!--<div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>-->
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="anketa.html">Anketa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <!--<li class="nav-item">
+                    <a class="nav-link" href="novosti.html">Novosti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rezultati.html" tabindex="-1" aria-disabled="true">Rezultati</a>
+                  </li>-->
+                  <li class="nav-item">
+                      <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Naš Tim</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" id="active" href="prijava.html">Prijavi se</a>
+                    </li>
+                </ul>
           </div>
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Početna</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="anketa.html">Anketa</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" id="active" href="novosti.html">Novosti</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="rezultati.html" tabindex="-1" aria-disabled="true">Rezultati</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Naš Tim</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" id="active" href="prijava.html">Prijavi se</a>
-                </li>
-              </ul>
-        </div>
-        <div class="cleaner"></div>
-        <!--KRAJ HEDERA-->
+          <div class="cleaner"></div>
+          <!--KRAJ HEDERA-->
         <!--KRAJ HEDERA-->
         <!--POCETAK BGSLIKE-->
         <div class="bgrezultati">
@@ -70,7 +75,7 @@
       <!--TRENDING DEO-->
       <div class="trending">
         <div class="trendnaslov">
-          <h1>Aktuelno</h1>
+          <h1>Kada se odrzava Sledeći FIT izazov?</h1>
         </div>
       </div>
       <!--SREDINA NOVOSTI-->
@@ -107,14 +112,14 @@
       <div class="novostiblok">
         <div class="trending">
           <div class="trendnaslov">
-            <h1>Novosti</h1>
+            <h1>Kako da kombinujem hranu sa treningom?</h1>
           </div>
         </div>
         <div class="card-group">
           <div class="card">
             <img src="img/novosti.webp" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Naslov</h5>
+              <h5 class="card-title">Najbolji izbor za tebe</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
@@ -122,7 +127,7 @@
           <div class="card">
             <img src="img/novosti2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Naslov</h5>
+              <h5 class="card-title">Za vegane</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
@@ -130,7 +135,7 @@
           <div class="card">
             <img src="img/gym5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Naslov</h5>
+              <h5 class="card-title">Da li mogu i dijabeticari?</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
@@ -143,14 +148,14 @@
         <div class="novostiblok">
           <div class="trending">
             <div class="trendnaslovvideo">
-              <h1>Novosti Video</h1>
+              <h1>Recepti za najbolju konzumaciju proizvoda</h1>
             </div>
           </div>
           <div class="card-group">
             <div class="card">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/YS-kZVTc1Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
-                <h5 class="card-title">Naslov</h5>
+                <h5 class="card-title">Herbalife caj</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
@@ -158,7 +163,7 @@
             <div class="card">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/YS-kZVTc1Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
-                <h5 class="card-title">Naslov</h5>
+                <h5 class="card-title">Kombinacije sa šejkom</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
@@ -166,7 +171,7 @@
             <div class="card">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/YS-kZVTc1Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
-                <h5 class="card-title">Naslov</h5>
+                <h5 class="card-title"></h5>
                 <p>d has even longer content than the first to show that equal height action.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
@@ -179,34 +184,12 @@
       <!--POCETAK KARTICE 3-->
       <div class="trending3deo">
         <div class="trendnaslov1">
-          <h1>News</h1>
+          <h1>Recepti i ostale informacije</h1>
         </div>
         <div class="trendnaslov2">
           <div class="tagnaslov">
             <h1>Tagovi</h1>
           </div>
-          <!--<div class="unaslovu">
-            <div class="tag">
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-              <a href="#!">Teretana</a>
-            </div>
-          </div>-->
         </div>
       </div>
       <div class="sveovosad">

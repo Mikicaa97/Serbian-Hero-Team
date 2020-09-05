@@ -34,18 +34,28 @@
                 <li class="nav-item">
                   <a class="nav-link active" id="active" href="index.html">Početna</a>
                 </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="web.html" role="button" aria-haspopup="true" aria-expanded="false">Osvoji 500e</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="nagrade.html">Nagradna igra</a>
+                    <a class="dropdown-item" href="rezultati.html">Rezultati</a>
+                    <a class="dropdown-item" href="novosti.html">Novosti</a>
+                    <!--<div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>-->
+                  </div>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="anketa.html">Anketa</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="blog.html">Blog</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                   <a class="nav-link" href="novosti.html">Novosti</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="rezultati.html" tabindex="-1" aria-disabled="true">Rezultati</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
                     <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Naš Tim</a>
                   </li>
@@ -74,6 +84,18 @@
             }
         </script>
         <!--KRAJ Video SLIDER-->
+
+        <!--POPUP POCETAK-->
+        <div id="pop">
+          <button id="close-button" 
+          onclick="document.getElementById('pop').style.display='none'">&times;</button>
+          <a href="kontakt.html">Kako se prijaviti?</a>
+          <div class="link1">
+            <a href="nagrade.html">Osvoji <b>500e</b> i <b>OBLIKUJ SE</b>, Saznaj više!</a>
+          </div>
+      </div>
+      <!--POPUP KRAJ-->
+      
         <!--ANKETA POCETAK-->
         <div class="anketa">
           <div class="prva">
@@ -345,10 +367,10 @@
               <a href="kontakt.html">> 069/55-58-126</a>
             </li>
             <li>
-              <a href="#!">Beograd, Srbija</a>
+              <a href="#!">> Beograd, Srbija</a>
             </li>
             <li>
-              <a href="#!">Organizacija</a>
+              <a href="#!">> Organizacija</a>
             </li>
           </ul>
 
@@ -387,7 +409,7 @@
 
     <!-- Copyright -->
     <div class="ufuter">
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <div class="footer-copyright text-center py-3">© Serbian Hero Team 2020 Copyright: Izrada web sajta - SEO optimizacija - Izrada online (internet) prodavnice 
         <a href="https://mikicaa97.github.io/CodeMikica/"> CodeHause</a>
       </div>
     </div>
