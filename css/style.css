@@ -9,6 +9,104 @@
           box-sizing: border-box;
 }
 
+/* Icon 1 */
+.navrisponsive {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    display: none !important;
+  }
+  .navrisponsive {
+    display: inline;
+  }
+  .animated-icon1, .animated-icon2, .animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  .animated-icon1 span {
+    background: #e65100;
+  }
+  .animated-icon2 span {
+    background: #e3f2fd;
+  }
+  .animated-icon3 span {
+    background: #f3e5f5;
+  }
+  .animated-icon1 span:nth-child(1) {
+    top: 0px;
+  }
+  .animated-icon1 span:nth-child(2) {
+    top: 10px;
+  }
+  .animated-icon1 span:nth-child(3) {
+    top: 20px;
+  }
+  .animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  .animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+  .animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  /* Icon 3*/
+  .animated-icon2 span:nth-child(1) {
+    top: 0px;
+  }
+  .animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+    top: 10px;
+  }
+  .animated-icon2 span:nth-child(4) {
+    top: 20px;
+  }
+  .animated-icon2.open span:nth-child(1) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+  }
+  .animated-icon2.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .animated-icon2.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .animated-icon2.open span:nth-child(4) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+  }
+}
+
 .header {
   margin: 0px auto;
   margin-top: 2%;
@@ -153,6 +251,10 @@ section li img:hover {
 .naslov {
   margin-top: 3%;
   text-align: center;
+}
+
+.naslov h2 {
+  font-size: 21px;
 }
 
 .kartica2 {
@@ -1503,6 +1605,9 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+  .logo img {
+    width: 200px;
+  }
   .container .petarimg img {
     width: 300px;
   }
@@ -1640,6 +1745,13 @@ button:hover {
 }
 
 @media (max-width: 380px) {
+  .naslov {
+    margin-top: 3%;
+    text-align: center;
+  }
+  .naslov h2 {
+    font-size: 18px;
+  }
   .container .petarimg img {
     width: 300px;
   }

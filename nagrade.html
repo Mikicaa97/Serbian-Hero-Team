@@ -26,6 +26,97 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
           <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
           <!--SVE ZA HEDER-->
+           <!--Navbar-->
+<div class="navrisponsive">        
+  <nav class="navbar navbar-light amber lighten-4 mb-4">
+  
+      <!-- Navbar brand -->
+      <!--<a class="navbar-brand" href="index.html">SerbianHeroTeam</a>-->
+      <div class="logo">
+        <a class="navbar-brand" href="index.html"><img src="img/strong.jpg" alt="Logo"/></a>
+      </div>
+      <!--<div class="logo">
+          
+        </d<a href="index.html"><img src="img/strong.jpg" alt="Logo"/>iv>-->
+      <!-- Collapse button -->
+      <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+        aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon1"><span></span><span></span><span></span></div>
+      </button>
+    
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+    
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <!--<li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>-->
+  
+          <li class="nav-item">
+              <a class="nav-link active" href="index.html">Početna</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="500e.html" role="button" aria-haspopup="true" aria-expanded="false">Osvoji 500e</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" id="active" href="nagrade.html">Nagradna igra</a>
+                <a class="dropdown-item" href="rezultati.html">Rezultati</a>
+                <a class="dropdown-item" href="novosti.html">Novosti</a>
+                <!--<div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>-->
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="anketa.html">Anketa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="novosti.html">Novosti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rezultati.html" tabindex="-1" aria-disabled="true">Rezultati</a>
+            </li>-->
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Naš Tim-Prijava</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="prijava.html">Prijavi se</a>
+              </li>
+  
+        </ul>
+        <!-- Links -->
+    
+      </div>
+      <!-- Collapsible content -->
+    
+    </nav>
+  </div>
+    <!--/.Navbar-->
+          <script src="main.js">
+              $(document).ready(function () {
+  
+  $('.first-button').on('click', function () {
+  
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+  
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+  
+    $('.animated-icon3').toggleClass('open');
+  });
+  });
+          </script>
           <div class="header">
           <div class="logo">
               <a href="index.html"><img src="img/strong.jpg" alt="Logo"/>
