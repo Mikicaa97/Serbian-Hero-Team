@@ -6,7 +6,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 /* Icon 1 */
 .navrisponsive{
     display: none;
@@ -323,7 +322,7 @@ section{
 }
 //KONTAKT STRANA
 .bgslika{
-    background-image:url("../img/gym1.jpg");
+    background-image:url("../img/gym2.jpg");
 	background-repeat:no-repeat;
 	min-height:500px;
     background-size:cover;
@@ -388,6 +387,9 @@ section{
 }
 //NASLOV NOVOSTI
 .trending{
+    img{
+        width: 100%;
+    }
     .trendnaslov{
         margin: 5% 5% 5% 5%;
         border-bottom: 3px solid #35a03a;
@@ -474,7 +476,11 @@ section{
 //kraj novosti video
 //KARTICA 3
 .kartica3{
-    width: 60%;
+    width: 100%;
+    margin: 0px auto;
+    .textdesno{
+            margin-top: 3%;
+    }
     .prvakartica{
         margin: 0px auto;
         display: flex;
@@ -578,7 +584,7 @@ section{
 .bgrezultatijelena{
     background-image:url("../img/jelena.jpg");
 	background-repeat:no-repeat;
-	min-height:700px;
+    min-height:700px;
     background-size:cover;
     padding-top: 25%;
     .ptext{
@@ -629,7 +635,6 @@ section{
     background-image:url("../img/mihailo.jpg");
 	background-repeat:no-repeat;
     min-height:700px;
-    min-width: 1200px;
     background-size:cover;
     padding-top: 25%;
     .ptext{
@@ -686,7 +691,7 @@ section{
 //KRAJ DODATAKA
 //REZULTATI POCETAK
 .bgrezultati{
-    background-image:url("../img/gym1.jpg");
+    background-image:url("../img/fitrezultati.jpg");
 	background-repeat:no-repeat;
 	min-height:500px;
     background-size:cover;
@@ -708,7 +713,30 @@ section{
 .bgrezultatipetar{
     background-image:url("../img/petar3.jpg");
 	background-repeat:no-repeat;
-	min-height:700px;
+	min-height:500px;
+    background-size:cover;
+    padding-top: 25%;
+    .ptext{
+        background-color: rgba(68, 68, 68, 0.418);
+        width: 70%;
+        margin: 0px auto;
+        text-align: center;
+        padding-top: 8%;
+        h1{
+            color: #dddddd;
+            font-size: 90px;
+        }
+        p{
+            color: #dddddd;
+            font-size: 35px;
+        }
+        padding: 2%;
+    }
+}
+.bgrezultatistrahinja{
+    background-image:url("../img/stahinja.jpg");
+	background-repeat:no-repeat;
+	min-height:500px;
     background-size:cover;
     padding-top: 25%;
     .ptext{
@@ -785,9 +813,6 @@ section{
         color: #fff;
     }
 }
-
-
-
 .searchnas{
     text-align: center;
     margin: 0px auto;
@@ -1032,6 +1057,9 @@ body {
         margin-left: 8%;
         width: 100%;
     }
+    img{
+        height: 390px;
+    }
     margin-top: 3%;
 }
 //KRAJ O NAMA SVE
@@ -1193,6 +1221,12 @@ body {
     }
 }
 //KRAJ POPUP DELA
+
+//NOVOSTI SVEOVOSAD DEO
+.sveovosad{
+    width: 100%;
+}
+//NOVOSTI KRAJ SVEOVOSAD
 
 //RESPONSIVE
 @media (max-width:1300px){
@@ -1398,6 +1432,99 @@ body {
     }
 }
 @media (max-width:620px){
+    .bgrezultatistrahinja{
+        background-image:url("../img/stahinja.jpg");
+        background-repeat:no-repeat;
+        min-height:500px;
+        background-size:cover;
+        padding-top: 25%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 70%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 60px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 20px;
+            }
+            padding: 2%;
+        }
+    }
+    .bgrezultatipetar{
+        background-image:url("../img/petar3mini.jpg");
+	background-repeat:no-repeat;
+    min-height:300px;
+    background-size:cover;
+    padding-top: 25%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 80%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 60px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 20px;
+            }
+            padding: 2%;
+        }
+    }
+
+    .bgrezultatijelena{
+        background-image:url("../img/jelena3mini.jpg");
+	background-repeat:no-repeat;
+    min-height:300px;
+    background-size:cover;
+    padding-top: 25%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 80%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 40px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 20px;
+            }
+            padding: 2%;
+        }
+    }
+    .bgrezultatimihailo{
+        background-image:url("../img/mihailo.jpg");
+	background-repeat:no-repeat;
+    min-height:450px;
+    background-size:cover;
+    padding-top: 45%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 80%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 40px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 20px;
+            }
+            padding: 2%;
+        }
+    }
     //KONTAKT IMG
     .container{
         .petarimg{
@@ -1542,6 +1669,109 @@ body {
     }
 }
 @media (max-width:480px){
+    .bgrezultatistrahinja{
+        background-image:url("../img/stahinja.jpg");
+        background-repeat:no-repeat;
+        min-height:500px;
+        background-size:cover;
+        padding-top: 55%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 90%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 30px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 20px;
+            }
+            padding: 2%;
+        }
+    }
+    .bgrezultatimihailo{
+        background-image:url("../img/mihailo.jpg");
+	background-repeat:no-repeat;
+    min-height:450px;
+    background-size:cover;
+    padding-top: 65%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 90%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 30px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 17px;
+            }
+            padding: 2%;
+        }
+    }
+    .bgrezultatijelena{
+        background-image:url("../img/jelena3mini.jpg");
+	background-repeat:no-repeat;
+    min-height:300px;
+    background-size:cover;
+    padding-top: 25%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 80%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 30px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 20px;
+            }
+            padding: 2%;
+        }
+    }
+    .bgrezultatipetar{
+        background-image:url("../img/petar2mini.jpg");
+	background-repeat:no-repeat;
+    min-height:300px;
+    background-size:cover;
+    padding-top: 25%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 80%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 60px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 20px;
+            }
+            padding: 2%;
+        }
+    }
+    .onamasve{
+        h5{
+            font-size: 24px;
+            text-align: center;
+            //border-bottom: 2px solid #35a03a;
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }
+    }
     //LOGO
     .logo{
         img{
@@ -1698,9 +1928,132 @@ body {
     }
 }
 @media (max-width:380px){
-    .naslov{
-        h2{
+    .bgrezultatistrahinja{
+        background-image:url("../img/stahinja.jpg");
+        background-repeat:no-repeat;
+        min-height:500px;
+        background-size:cover;
+        padding-top: 65%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 90%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 25px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 18px;
+            }
+            padding: 2%;
+        }
+    }
+    .bgrezultatijelena{
+        background-image:url("../img/jelena3mini.jpg");
+	background-repeat:no-repeat;
+    min-height:300px;
+    background-size:cover;
+    padding-top: 45%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 90%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 25px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 15px;
+            }
+            padding: 2%;
+        }
+    }
+    .bgrezultatipetar{
+        background-image:url("../img/petar1mini.jpg");
+	background-repeat:no-repeat;
+    min-height:300px;
+    background-size:cover;
+    padding-top: 45%;
+        .ptext{
+            background-color: rgba(68, 68, 68, 0.418);
+            width: 90%;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 8%;
+            h1{
+                color: #dddddd;
+                font-size: 30px;
+            }
+            p{
+                color: #dddddd;
+                font-size: 18px;
+            }
+            padding: 2%;
+        }
+    }
+    .sveovosad{
+            .prvakartica{
+                .levaimg{
+                    width: 100%;
+                    margin: 0px auto;
+                }
+                    .textdesno{
+                        width: 100%;
+                        margin-top: 4%;
+                    }
+            }
+    }
+    .novostivideo{
+        .trendnaslovvideo{
+            margin: 5% 5% 5% 5%;
+            border-bottom: 3px solid #35a03a;
+            h1{
+                font-size: 25px;
+                color: #fff;
+            }
+        }
+    }
+    .trending{
+        .trendnaslov{
+            h1{
+                font-size: 28px;
+            }
+        }
+    }
+    .novostiblok{
+        h5{
+            font-size: 27px;
+        }
+        p{
             font-size: 18px;
+        }
+    }
+    .rezdesno{
+        h2{
+            font-size: 23px;
+        }
+    }
+    .reznaslov{
+        text-align: center;
+        margin: 5% 5% 5% 5%;
+        border-bottom: 6px solid #35a03a;
+        h1{
+            font-size: 28px;
+            color: #000;
+        }
+    }
+    .naslov{
+        h1{
+            font-size: 24px;
+        }
+        h2{
+            font-size: 20px;
         }
         margin-top: 3%;
         text-align: center;
