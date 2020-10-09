@@ -1107,13 +1107,14 @@ button:hover {
 }
 
 .prijava1 {
-  margin-top: 5%;
+  text-align: center;
+  margin-top: 7%;
 }
 
 .prijava1 button {
+  border: none;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
   background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
-  border: none;
 }
 
 .prijava1 button:hover {
@@ -1207,7 +1208,7 @@ button:hover {
   right: 27%;
   position: fixed;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.945);
+  background-color: rgba(255, 255, 255, 0.877);
 }
 
 #popkont #close {
@@ -1272,7 +1273,7 @@ button:hover {
   right: 27%;
   position: fixed;
   border-radius: 10px;
-  background-color: rgba(250, 250, 250, 0.815);
+  background-color: rgba(250, 250, 250, 0.774);
 }
 
 #popprijava #close {
@@ -1286,7 +1287,7 @@ button:hover {
   color: #fff;
   font-size: 20px;
   float: right;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #b1b1b1;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
   background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
   border-radius: 5px;
